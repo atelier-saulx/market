@@ -1,0 +1,30 @@
+{
+  "name": "market",
+  "version": "0.1.0",
+  "description": "Based.io app",
+  "license": "MIT",
+  "main": "dist/server/index.js",
+  "scripts": {
+    "dev": "npx @based/cli dev",
+    "deploy": "npx @based/cli deploy"
+  },
+  "prettier": "@saulx/prettier-config",
+  "eslintConfig": {
+    "extends": "@saulx/eslint-config"
+  },
+  "dependencies": {
+    "@based/client": "^4.7.6",
+    "@based/react": "^4.4.0",
+    "@based/ui": "^5.10.14"
+  },
+  "devDependencies": {
+    "@based/cli": "^5.5.3",
+    "@based/functions": "^2.2.2",
+    "@saulx/eslint-config": "^1.1.1",
+    "@saulx/prettier-config": "^1.0.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "react": "18",
+    "react-dom": "18"
+  }
+}
